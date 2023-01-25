@@ -1,38 +1,92 @@
-.App {
+
+ body {
+  background-image: linear-gradient(rgb(163, 163, 252), rgb(247, 182, 182), rgb(238, 230, 159));
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+#heading {
+  color: black;
+}
+
+#container {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nameInput {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(187, 241, 223);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#deptInput {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(187, 241, 223);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#ratingInput {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(187, 241, 223);
+}
+
+#btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(138, 243, 243);
+  font-size: 20px;
+}
+
+#dataShow {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 2px solid black;
+  background-color: rgb(166, 252, 252);
+  width: 1200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 40px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+#detailBox {
+  background-color: rgb(163, 139, 77);
+  border: 2px solid black;
+  border-radius: 35px;
+  height: 70px;
+  width: 500px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#backButton {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 15px;
+  background-color: rgb(223, 111, 133);
+  margin-left: 43%;
+  margin-top: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading{
+  text-align: center;
+  font-size: 30px;
 }
